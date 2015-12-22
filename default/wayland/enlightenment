@@ -1,0 +1,9 @@
+# env for display-manager-service.run
+XDG_RUNTIME_DIR=/run
+ECORE_DRM_TTY=/dev/tty1
+ECORE_EVAS_FORCE_SYNC_RENDER=1
+E_START=enlightenment
+ECORE_DRM_DEVICE_USER_HANDLER=1
+ELM_PROFILE=default
+ECTOR_BACKEND=default
+HOME=/var/lib/enlightenment
