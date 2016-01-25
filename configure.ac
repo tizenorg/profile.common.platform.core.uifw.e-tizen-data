@@ -58,25 +58,25 @@ if test "$WITH_X"; then
     }
     group "E_Config_Module" struct {
       value "name" string: "e-mod-tizen-wm-policy";
-      value "enabled" uchar: 1;
+      value "enabled" uchar: 0;
       value "delayed" uchar: 0;
       value "priority" int: 0;
     }
     group "E_Config_Module" struct {
       value "name" string: "e-mod-tizen-keyrouter";
-      value "enabled" uchar: 1;
+      value "enabled" uchar: 0;
       value "delayed" uchar: 0;
       value "priority" int: 0;
     }
     group "E_Config_Module" struct {
       value "name" string: "e-mod-tizen-effect";
-      value "enabled" uchar: 1;
+      value "enabled" uchar: 0;
       value "delayed" uchar: 0;
       value "priority" int: 0;
     }
     group "E_Config_Module" struct {
       value "name" string: "e-mod-tizen-devicemgr";
-      value "enabled" uchar: 1;
+      value "enabled" uchar: 0;
       value "delayed" uchar: 0;
       value "priority" int: 0;
     }
@@ -110,31 +110,31 @@ elif test "$WITH_WAYLAND"; then
     }
     group "E_Config_Module" struct {
       value "name" string: "e-mod-tizen-wm-policy";
-      value "enabled" uchar: 1;
+      value "enabled" uchar: 0;
       value "delayed" uchar: 0;
       value "priority" int: 0;
     }
     group "E_Config_Module" struct {
       value "name" string: "e-mod-tizen-devicemgr";
-      value "enabled" uchar: 1;
+      value "enabled" uchar: 0;
       value "delayed" uchar: 0;
       value "priority" int: 10;
     }
     group "E_Config_Module" struct {
       value "name" string: "e-mod-tizen-keyrouter";
-      value "enabled" uchar: 1;
+      value "enabled" uchar: 0;
       value "delayed" uchar: 0;
       value "priority" int: 0;
     }
     group "E_Config_Module" struct {
       value "name" string: "e-mod-tizen-eom";
-      value "enabled" uchar: 1;
+      value "enabled" uchar: 0;
       value "delayed" uchar: 0;
       value "priority" int: 0;
     }
     group "E_Config_Module" struct {
       value "name" string: "e-mod-tizen-wl-textinput";
-      value "enabled" uchar: 1;
+      value "enabled" uchar: 0;
       value "delayed" uchar: 0;
       value "priority" int: 0;
     }
