@@ -194,6 +194,7 @@ default/Makefile
 default/backgrounds/Makefile
 default/config/Makefile
 default/config/tizen-common/Makefile
+default/themes/Makefile
 ])
 AC_OUTPUT([
 ])
